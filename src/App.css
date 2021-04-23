@@ -1,0 +1,113 @@
+body{
+  background-color: #e9ecef !important;
+}
+#container {
+   width: 100%;
+  height: 98vh;
+  margin: 0px !important;
+  /* padding: 0 !important; */
+}
+.customCol {
+  padding: 0px;
+  background: white;
+  border: 1px solid rgb(65, 65, 65);
+  height: 72px;
+  cursor: pointer;
+}
+.customMargin{
+  margin: 20px 0;
+}
+.toeButtons{
+  border-radius: 24px;
+    font-weight: 700;
+}
+.toeButtons a{
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.marking {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.marking-x {
+  color: lightblue;
+}
+
+.marking-o {
+  color: lightcoral;
+}
+
+.alert {
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+}
+
+.container {
+  text-align: center;
+}
+
+@media all and (max-width: 2200px) and (min-width: 1200px) {
+  .board {
+    margin: 0 42%;
+    max-width: 190px;
+  }
+}  
+@media all and (max-width: 799px) and (min-width: 768px) {
+  .board {
+    margin: 0 37%;
+    max-width: 190px;
+  } 
+}
+@media all and (max-width: 736px) and (min-width: 667px) {
+  .board {
+    margin: 0 30%;
+    max-width: 190px;
+  }
+}
+@media all and (max-width: 666px) and (min-width:640px) {
+  .board {
+    margin: 0 30%;
+    max-width: 190px;
+  }
+}
+@media all and (max-width: 639px) and (min-width: 568px) {
+  .board {
+    margin: 0 30%;
+    max-width: 190px;
+  }
+}
+@media all and (max-width: 567px) and (min-width: 411px) {
+  .board {
+    margin: 0 30%;
+    max-width: 190px;
+  }
+}
+
+@media all and (max-width: 410px) and (min-width: 360px) {
+  #container {
+    width: 100%;
+    height: 98vh;
+    margin-bottom: 3rem !important;
+  }
+  .board {
+    margin: 0 18%;
+    max-width: 190px;
+  }
+}
+@media all and (max-width: 359px) and (min-width: 320px) and (orientation : portrait){
+  #container {
+    width: 100%;
+    height: 98vh;
+    margin-bottom: 3rem !important;
+  }
+  .board {
+    margin: 0 18%;
+    max-width: 190px;
+  }
+}
